@@ -1,0 +1,3 @@
+interface:
+  display_name: "Keep Project Focus"
+  short_description: "Maintain one authoritative current project"
