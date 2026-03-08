@@ -4,7 +4,7 @@ A Codex skill for keeping one authoritative active project in a multi-project da
 
 ## What it captures
 - Durable `focusedProjectId` style state
-- Correct create/switch/delete behavior
+- Correct create, switch, and delete behavior
 - `Next Action` regeneration from the real focused project
 - Proposal id remapping during formalization
 
@@ -14,5 +14,5 @@ A Codex skill for keeping one authoritative active project in a multi-project da
 3. Start a new Codex session.
 
 ## Example prompt
-- ?????????????????????
-- ????????????????????????
+- Fix the current project state so switching projects never falls back to stale discussion.
+- Make project creation abandon the old focus and rewrite the next action.
