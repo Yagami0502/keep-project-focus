@@ -27,4 +27,4 @@ Treat current project focus as durable state, not as text inference. Keep one au
 - Leaving an abandoned project visible as the effective current project.
 
 ## Example
-Use when the user says: ???????????????, ????????????????, or ?????????????.
+Use when the user says: "The old project keeps running after a new project is created", "switching projects falls back to stale discussion", or "deleting a project breaks the current focus".
